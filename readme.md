@@ -10,6 +10,7 @@ Contents
 - sendto.cmd - SendTo maintenance tool.
 - startup.cmd - StartUp maintenance tool.
 - chpath.js - Edit Root-%PATH% with notepad.exe.
+- trash.js - Move files to Windows' trashbox.
 
 ln.cmd
 -------
@@ -60,3 +61,13 @@ Edit Root-%PATH% with notepad.exe
 ```
 cscript chpath.js
 ```
+
+trash.js
+---------
+
+Move files to Windows' trashbox.
+
+```
+cscript trashbox.js FILE(S)
+```
+
