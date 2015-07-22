@@ -1,7 +1,7 @@
-JBatchfiles
+Jatchfiles
 ===========
 
-Tools written with JScript in Batchfiles for Windows7 or later.
+Windows maintenance Scripts (JScript in batchfiles)
 
 Contents
 --------
