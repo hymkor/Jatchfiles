@@ -9,6 +9,7 @@ Contents
 - ln.cmd - mklink wrapper.
 - sendto.cmd - SendTo maintenance tool.
 - startup.cmd - StartUp maintenance tool.
+- chpath.js - Edit Root-%PATH% with notepad.exe.
 
 ln.cmd
 -------
@@ -50,3 +51,12 @@ This batch requires `sendto.cmd`.
     - Put the shortcut to FILEPATH on StartUp folder.
 - Without FILEPATH:
     - Open the StartUp folder with explorer.
+
+chpath.js
+---------
+
+Edit Root-%PATH% with notepad.exe
+
+```
+cscript chpath.js
+```
