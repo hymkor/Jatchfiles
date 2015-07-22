@@ -11,6 +11,7 @@ Contents
 - startup.cmd - StartUp maintenance tool.
 - chpath.js - Edit Root-%PATH% with notepad.exe.
 - trash.js - Move files to Windows' trashbox.
+- please.cmd - Execute as Administrator.
 
 ln.cmd
 -------
@@ -71,3 +72,11 @@ Move files to Windows' trashbox.
 cscript trashbox.js FILE(S)
 ```
 
+please.cmd
+----------
+
+Execute as Administrator.
+
+```
+please COMMAND ARG(s)...
+```
