@@ -9,9 +9,11 @@ Contents
 - ln.cmd - mklink wrapper.
 - sendto.cmd - SendTo maintenance tool.
 - startup.cmd - StartUp maintenance tool.
+- please.cmd - Execute as Administrator.
 - chpath.js - Edit Root-%PATH% with notepad.exe.
 - trash.js - Move files to Windows' trashbox.
-- please.cmd - Execute as Administrator.
+- lnk.js - make shortcut
+- specialfolders.js - print where is the specialfolder.
 
 ln.cmd
 -------
@@ -79,4 +81,25 @@ Execute as Administrator.
 
 ```
 please COMMAND ARG(s)...
+```
+
+lnk.js
+-------
+
+Make shortcut.
+
+```
+lnk SOURCE DESTINATION
+```
+
+specialfolders.js
+-----------------
+
+Print where is the specialfolder.
+
+```
+$ specialfolders sendto
+C:\Users\...\AppData\Roaming\Microsoft\Windows\SendTo
+$ specialfolders startup
+C:\Users\...\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ```
