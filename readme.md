@@ -89,7 +89,7 @@ lnk.js
 Make shortcut.
 
 ```
-lnk SOURCE DESTINATION
+cscript lnk.js SOURCE DESTINATION
 ```
 
 specialfolders.js
@@ -98,8 +98,8 @@ specialfolders.js
 Print where is the specialfolder.
 
 ```
-$ specialfolders sendto
+$ cscript specialfolders.js sendto
 C:\Users\...\AppData\Roaming\Microsoft\Windows\SendTo
-$ specialfolders startup
+$ cscript specialfolders.js startup
 C:\Users\...\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ```
