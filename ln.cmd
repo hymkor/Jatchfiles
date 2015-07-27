@@ -9,7 +9,7 @@ exit /b %ERRORLEVEL%
 var args = WScript.Arguments
 
 if( args.length < 2 ){
-    WScript.Echo("Usage: cscript ln.js [-s] FILENAME TARGET");
+    WScript.Echo("Usage: ln.cmd [-s] SOURCEFILE(s) TARGET");
     WScript.Quit(1);
 }
 
